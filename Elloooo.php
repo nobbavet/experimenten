@@ -1,6 +1,3 @@
-/* ZUJA 6-1-2021: wie is Nobbavet?
-    Het lijkt Udo te zijn, maar is dat ook zo?
-*/
 <html>
  <head>
   <title>PHP Test</title>
