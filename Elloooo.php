@@ -47,24 +47,5 @@ switch($test){
         echo "kies een voertuig";
 }
  ?>
-     <ul>
-        <?php
-            $groenten = ['spinazie', 'boerenkool', 'zuurkool', 'witlof', 'bonen'];
-                function ulfnc($array){
-                    foreach($array as $groenten){
-                $returnit =  '<li>' . $groenten;
-                }
-                return $returnit;
-                }
-            echo ulfnc($groenten);
-        ?>
-    </ul>
-        <?php
-            function returnh1($h1){
-                return '<h1>' . $h1 . '</h1>';
-                }
-
-            echo returnh1('Hi 0~0');
-        ?>
  </body>
 </html>
