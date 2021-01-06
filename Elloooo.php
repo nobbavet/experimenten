@@ -46,6 +46,6 @@ switch($test){
     default:
         echo "kies een voertuig";
 }
- ?>
+ ?> 
  </body>
 </html>
