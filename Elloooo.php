@@ -31,21 +31,29 @@
 //     "kies een voertuig";
 // }
 
-$test = $_GET["voertuigen"];
 
+
+function voertuig(){ 
+    $test = $_GET["voertuigen"];
+    $var = "";
+    
 switch($test){
     case "tank":
-        echo "ehhhh...";
+        $var .= "ehhhh... Kaboom";
         break;
     case "vliegtuig":
-        echo "swoosh maar kan een " . $test . " vliegen??";
+        $var .= "swoosh maar kan een " . $test . " vliegen??";
         break;
     case "porche":
-        echo "dit is een mooie auto!";
+        $var .= "Vroem";
         break;
     default:
-        echo "kies een voertuig";
+        $var .= "kies een voertuig";
 }
- ?> 
+    return $var;
+}
+    echo voertuig();
+
+ ?>
  </body>
 </html>
