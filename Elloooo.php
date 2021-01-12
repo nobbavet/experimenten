@@ -3,11 +3,6 @@
   <title>PHP Test</title>
  </head>
  <body>
-    <?php include 'header.php'; ?> 
-    <div id="header">
-    <?php echo "run header stuff"; ?>
-    </div>
-
     <?php 
         echo '<p>Hello World</p>'; 
     ?> 
