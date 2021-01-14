@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -6,6 +5,16 @@
     <title>Document</title>
 </head>
 <body>
+    <nav>
+        <ul>
+            <li><a href="Elloooo.php">Menu</a></li>
+            <li><a href="page2.php">Hobby's</a></li>
+        <ul>
+    </nav>
+
+
+
+
 <form action="" method="get">
     <select name="voertuigen" id="">
         <option>select iets</option>
