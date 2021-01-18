@@ -7,16 +7,12 @@
 <body>
     <nav>
         <ul>
-            <li><a href="index.php?m=Elloooo">Menu</a></li>
-            <li><a href="index.php?m=page2">Hobby's</a></li>
+            <li><a href="Elloooo.php">Menu</a></li>
+            <li><a href="page2.php">Hobby's</a></li>
         <ul>
     </nav>
-    <section>
-<?php
-    if ($_GET['m']=='page2')
-        include 'page2.php';
-?>
-    </section>
+
+
 
 
 <form action="" method="get">
