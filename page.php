@@ -1,19 +1,20 @@
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Page</title>
 </head>
 <body>
     <nav>
         <ul>
-            <li><a href="Elloooo.php">Menu</a></li>
-            <li><a href="page2.php">Hobby's</a></li>
+            <li><a href="index.php?m=Elloooo">Menu</a></li>
+            <li><a href="index.php?m=page2">Hobby's</a></li>
         <ul>
     </nav>
-
-
-
+    	<section>
+            <?php
+                if ($_GET['m']=='page2')
+                    include 'page2.php';
+            ?>
+        </section>
 
 <form action="" method="get">
     <select name="voertuigen" id="">
