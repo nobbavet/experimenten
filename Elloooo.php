@@ -13,7 +13,8 @@
     <?php 
         echo '<p>Hello World</p>'; 
 
-        echo strrev("Nabil Ahammar"); 
+        echo strrev("Nabil Ahammar");
+        echo strrev("Ik ben nabil en ben 17 jaar oud. ijn hobby zijn gamen, tekenen en fietsen/sporten.");  
     ?> 
 
     <?php 
