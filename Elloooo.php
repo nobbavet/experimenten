@@ -5,7 +5,7 @@
  <body>
     <nav>
         <ul>
-            <li><a href="index.php?m=page">Menu</a></li>
+            <li><a href="index.php?m=psage">Menu</a></li>
             <li><a href="index.php?m=page2">Hobby's</a></li>
         <ul>
     </nav>
