@@ -5,8 +5,8 @@
  <body>
     <nav>
         <ul>
-            <li><a href="page.php">Menu</a></li>
-            <li><a href="page2.php">Hobby's</a></li>
+            <li><a href="index.php?m=page">Menu</a></li>
+            <li><a href="index.php?m=page2">Hobby's</a></li>
         <ul>
     </nav>
 
