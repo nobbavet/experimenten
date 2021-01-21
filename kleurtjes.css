@@ -1,8 +1,19 @@
+#header {
+    position: relative;
+    color: black;
+    text-align: center;
+    background-color: lightblue;
+    margin: 0%;
+    border: 1px solid grey;
+    height: 60px;
+    width: 100%;
+}
+
 #footer {
     background-color: lightblue;
     position: relative;
     bottom: 0%;
-    width: 99%;
+    width: 100%;
     border: 1px solid grey;
     text-align: center; 
 }
