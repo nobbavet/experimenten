@@ -1,4 +1,8 @@
 
+    <?php 
+    include 'navbar.php'
+    ?>
+    
 bcscale<br>
 
 <?php

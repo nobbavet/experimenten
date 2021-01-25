@@ -2,20 +2,12 @@
 <head>
     <title>Page</title>
 </head>
-<body>
-    <nav>
-        <ul>
-            <li><a href="index.php?m=Elloooo">Menu</a></li>
-            <li><a href="index.php?m=page2">Hobby's</a></li>
-        <ul>
-    </nav>
-    	<section>
-            <?php
-                if ($_GET['m']=='page2')
-                    include 'page2.php';
-            ?>
-        </section>
 
+    <?php 
+    include 'navbar.php'
+    ?>
+
+<body>
 <form action="" method="get">
     <select name="voertuigen" id="">
         <option>select iets</option>
