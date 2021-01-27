@@ -1,7 +1,6 @@
 <link rel="stylesheet" href="kleurtjes.css">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 
-
 <body>
     <?php
         // zuja: misschien is dit een betere manier om pagina's te benaderen.
