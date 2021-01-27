@@ -1,13 +1,13 @@
-<html>
+<!-- <html>
 <head>
     <title>Page</title>
 </head>
 
-    <?php 
-    include 'navbar.php'
+<?php 
+    //include 'navbar.php'
     ?>
 
-<body>
+<body> -->
 <form action="" method="get">
     <select name="voertuigen" id="">
         <option>select iets</option>
@@ -40,5 +40,5 @@ switch($test){
 }
     echo voertuig();
  ?>
-</body>
-</html>
+<!-- </body>
+</html> -->
