@@ -13,6 +13,7 @@ require 'db_connect.php';
  
 <body> -->
 <<<<<<< HEAD
+<<<<<<< HEAD
     <div class="main-section">
         <div class="add-section">
             <form action="application/addon.php" method="POST" autocomplete="off">
@@ -27,6 +28,8 @@ require 'db_connect.php';
 <<<<<<< HEAD
 >>>>>>> 7aafe0e6626e26a183ca57aec740f8468af96160
 >>>>>>> 4b92797ba0751e5e66f618d33d930cc34dac8b3f
+=======
+>>>>>>> parent of 9b038b5... no message
     <div class="main-section">
         <div class="add-section">
             <form action="">
@@ -39,9 +42,12 @@ require 'db_connect.php';
         </div>
         <?php
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 9b038b5bdb2039230c1ec5762e710d88a6c7d974
+=======
+>>>>>>> parent of 9b038b5... no message
             $todos = $conn->query("SELECT * FROM todos ORDER BY id DESC");
         ?>
         <div class="show-todo-section">
@@ -100,6 +106,7 @@ require 'db_connect.php';
         </div>
     </div>
 <!-- </body>s
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
             $todos = $conn->query("SELECT * FROM todos ORDER BY id DESC");
@@ -147,4 +154,6 @@ require 'db_connect.php';
 >>>>>>> 7aafe0e6626e26a183ca57aec740f8468af96160
 >>>>>>> 4b92797ba0751e5e66f618d33d930cc34dac8b3f
 >>>>>>> 9b038b5bdb2039230c1ec5762e710d88a6c7d974
+=======
+>>>>>>> parent of 9b038b5... no message
 </html> -->

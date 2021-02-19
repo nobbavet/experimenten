@@ -21,9 +21,12 @@ body {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
 >>>>>>> 9b038b5bdb2039230c1ec5762e710d88a6c7d974
+=======
+>>>>>>> parent of 9b038b5... no message
 .navbar {
     overflow: hidden;
     background-color: #34495e;
@@ -51,6 +54,7 @@ body {
   }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 .navbar navbar-inverse {
@@ -60,20 +64,24 @@ body {
  
 >>>>>>> 4b92797ba0751e5e66f618d33d930cc34dac8b3f
 >>>>>>> 9b038b5bdb2039230c1ec5762e710d88a6c7d974
+=======
+>>>>>>> parent of 9b038b5... no message
  .main-section {
     background: transparent;
     max-width: 500px;
     width: 90%;
     height: 500px;
     margin: 30px auto;
-<<<<<<< HEAD
     border-color: #34495e;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
     border-color: #34495e;
 =======
 >>>>>>> 4b92797ba0751e5e66f618d33d930cc34dac8b3f
 >>>>>>> 9b038b5bdb2039230c1ec5762e710d88a6c7d974
+=======
+>>>>>>> parent of 9b038b5... no message
     border-radius: 10px;
   }
   
@@ -174,8 +182,8 @@ body {
     width: 20px;
     height: 20px;
     font-family: sans-serif;
-<<<<<<< HEAD
     color: black;
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
     color: black;
@@ -183,6 +191,8 @@ body {
     color: rgb(139, 97, 93);
 >>>>>>> 4b92797ba0751e5e66f618d33d930cc34dac8b3f
 >>>>>>> 9b038b5bdb2039230c1ec5762e710d88a6c7d974
+=======
+>>>>>>> parent of 9b038b5... no message
     text-decoration: none;
     text-align: right;
     padding: 0px 5px 8px 0px;
@@ -192,8 +202,8 @@ body {
   }
   
   .remove-to-do:hover {
-<<<<<<< HEAD
     background: rgb(51, 204, 255);
+<<<<<<< HEAD
 =======
 <<<<<<< HEAD
     background: rgb(51, 204, 255);
@@ -201,6 +211,8 @@ body {
     background: rgb(139, 97, 93);
 >>>>>>> 4b92797ba0751e5e66f618d33d930cc34dac8b3f
 >>>>>>> 9b038b5bdb2039230c1ec5762e710d88a6c7d974
+=======
+>>>>>>> parent of 9b038b5... no message
     color: #fff;
   }
   
