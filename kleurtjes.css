@@ -20,6 +20,7 @@ body {
     width: 100%;
 }
 
+<<<<<<< HEAD
 .navbar {
     overflow: hidden;
     background-color: #34495e;
@@ -46,13 +47,23 @@ body {
     color: black;
   }
 
+=======
+.navbar navbar-inverse {
+    background-color: lightblue;
+    border: 1px solid grey;
+}
+ 
+>>>>>>> 4b92797ba0751e5e66f618d33d930cc34dac8b3f
  .main-section {
     background: transparent;
     max-width: 500px;
     width: 90%;
     height: 500px;
     margin: 30px auto;
+<<<<<<< HEAD
     border-color: #34495e;
+=======
+>>>>>>> 4b92797ba0751e5e66f618d33d930cc34dac8b3f
     border-radius: 10px;
   }
   
@@ -153,7 +164,11 @@ body {
     width: 20px;
     height: 20px;
     font-family: sans-serif;
+<<<<<<< HEAD
     color: black;
+=======
+    color: rgb(139, 97, 93);
+>>>>>>> 4b92797ba0751e5e66f618d33d930cc34dac8b3f
     text-decoration: none;
     text-align: right;
     padding: 0px 5px 8px 0px;
@@ -163,7 +178,11 @@ body {
   }
   
   .remove-to-do:hover {
+<<<<<<< HEAD
     background: rgb(51, 204, 255);
+=======
+    background: rgb(139, 97, 93);
+>>>>>>> 4b92797ba0751e5e66f618d33d930cc34dac8b3f
     color: #fff;
   }
   
