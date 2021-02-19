@@ -12,6 +12,7 @@ require 'db_connect.php';
     ?>
  
 <body> -->
+<<<<<<< HEAD
     <div class="main-section">
         <div class="add-section">
             <form action="">
@@ -34,4 +35,20 @@ require 'db_connect.php';
         </div>
     </div>
 <!-- </body>s
+=======
+<form action="" method="get">
+    <select name="voertuigen" id="">
+        <option>select iets</option>
+        <option value = "tank">tank</option>
+        <option value = "vliegtuig">vliegtuig</option>
+        <option value = "porche">porche</option>
+    </select>
+        <button type = "submit">submit</button>
+    </form>
+
+<?php 
+
+?>
+<!-- </body>
+>>>>>>> 7a18fbf348ffd3a53a8e3260bb2fa13c64f2634d
 </html> -->
