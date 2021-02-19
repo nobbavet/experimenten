@@ -18,6 +18,8 @@
         <button type = "submit">submit</button>
     </form>
 
+<?php 
 
+?>
 <!-- </body>
 </html> -->
