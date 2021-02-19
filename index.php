@@ -1,9 +1,8 @@
 <link rel="stylesheet" href="kleurtjes.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
 
 <body>
     <?php
-        // zuja: misschien is dit een betere manier om pagina's te benaderen.
         $page = (isset($_GET['i']))?$_GET['i']:'home';
         include 'header.php';
         include 'navbar.php';
@@ -18,6 +17,8 @@
             case 'p2': include 'page2.php'; break;
         }
     ?>
+ 
+
  
     <?php 
     include 'footer.php'; 
