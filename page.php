@@ -18,27 +18,6 @@
         <button type = "submit">submit</button>
     </form>
 
-<?php
-function voertuig(){ 
-    $test = $_GET["voertuigen"];
-    $var = "";
-    
-switch($test){
-    case "tank":
-        $var .= "Tank goes BRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR";
-        break;
-    case "vliegtuig":
-        $var .= "swoosh maar kan een " . $test . " vliegen??";
-        break;
-    case "porche":
-        $var .= "Vroem";
-        break;
-    default:
-        $var .= "kies een voertuig";
-}
-    return $var;
-}
-    echo voertuig();
- ?>
+
 <!-- </body>
 </html> -->

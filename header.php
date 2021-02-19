@@ -1,3 +1,3 @@
 <section id="header">
-Welcome op PHP website
+Welcome op PHP mijn website
 </section>
