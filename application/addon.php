@@ -1,5 +1,4 @@
 <?php 
-// zuja: hoe kun je nu ook dit via index laten lopen?
 
 if(isset($_POST['title'])){
     require '../db_connect.php';

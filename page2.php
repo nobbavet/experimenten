@@ -1,10 +1,10 @@
-<?php
-function content() {
-    ob_start();
+
+    <?php 
+    //include 'navbar.php'
     ?>
-    Hello world<BR>
-    <?php
-    $ret = ob_get_contents();
-    ob_end_clean();
-    return $ret;
-}
+
+bcscale<br>
+
+<?php
+echo "Hello world<BR>";
+?>
