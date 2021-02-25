@@ -1,32 +1,22 @@
-<?php 
-require 'db_connect.php';
-?>
-
-<!-- <html>
-<head>
-    <title>Page</title>
-    <link rel="stylesheet" href="kleurtjes.css">
-</head>
-
-<?php 
-    //include 'navbar.php'
+<?php
+function content() {
+    ob_start();
     ?>
- 
-<body> -->
     <div class="main-section">
         <div class="add-section">
+        <!-- zuja: hoe kun je deze action ook via index.php laten gaan? -->
             <form action="application/addon.php" method="POST" autocomplete="off">
             <?php if(isset($_GET['mess']) && $_GET['mess'] == 'error'){ ?>
                 <input type="text" 
-                       name="title" 
-                       style="border-color: red"
-                       placeholder="Dit moet je invullen">
+                    name="title" 
+                    style="border-color: red"
+                    placeholder="Dit moet je invullen">
                 <button type="submit">Add &nbsp; <span>&#43;</span></button>
 
             <?php }else{ ?>
                 <input type="text" 
-                       name="title" 
-                       placeholder="Wat moet je nog doen?">
+                    name="title" 
+                    placeholder="Wat moet je nog doen?">
                 <button type="submit">Add &nbsp; <span>&#43;</span></button>
             <?php } ?>
             </form>
@@ -36,7 +26,7 @@ require 'db_connect.php';
         ?>
         <div class="show-todo-section">
             <?php if($todos->rowCount() <= 0){ ?>
-        <div class="todo-items">
+            <div class="todo-items">
                 <div class="empty">
                     <img src="img/load.gif" width="80px">
                 </div>
@@ -56,8 +46,8 @@ require 'db_connect.php';
                     <h2 class="checked"><?php echo $todo['title'] ?></h2> 
                 <?PHP }else { ?>
                     <input type="checkbox"
-                           data-todo-id ="<?php echo $todo['id']; ?>"
-                           class="check-box">
+                        data-todo-id ="<?php echo $todo['id']; ?>"
+                        class="check-box">
                     <h2><?php echo $todo['title'] ?></h2> 
                 <?php } ?>
                     <br>
@@ -69,26 +59,27 @@ require 'db_connect.php';
 
     <script src="JS/jquery-3.2.1.min.js"></script>
     <script>
-       $(document).ready(function(){
-           $('.remove-to-do').click(){
-                const id = $(this).attr('id');
-                
-                $.post("application/remove.php",
-                        {
-                                id: id
-                        },
-                        (data) => { 
-                            if(data){
-                                $(this).parent().hide(600);
-                            
-                        }
-                );
-           };
+        $(document).ready(function(){
+            $('.remove-to-do').click(){
+                    const id = $(this).attr('id');
+                    
+                    $.post("application/remove.php",
+                            {
+                                    id: id
+                            },
+                            (data) => { 
+                                if(data){
+                                    $(this).parent().hide(600);
+                                
+                                }
+                            }
+                    );
+            };
 
-                $(".check-box").click(function(e){
+            $(".check-box").click(function(e){
                 const id = $(this).attr('data-todo-id');
                 
-                $.post('app/check.php',
+                $.post('app/check.php', // zuja: foutjes? Moet toch application zijn?
                     {
                         id: id
                     },
@@ -104,7 +95,10 @@ require 'db_connect.php';
                     }
                 );
             });
-       }); 
+        }); 
     </script>
-<!-- </body>
-</html> s-->
+    <?php
+    $ret = ob_get_contents();
+    ob_end_clean();
+    return $ret;
+}
